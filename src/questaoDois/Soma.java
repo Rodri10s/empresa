@@ -2,7 +2,7 @@ package questaoDois;
 
 public class Soma {
         
-    private int resultado;
+    private int resultado = 0;
 
     public int metodoSoma(){
         MetodoQuestaoDois metodo = new MetodoQuestaoDois();
