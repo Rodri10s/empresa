@@ -16,13 +16,14 @@ public class MetodoQuestaoDois {
         }
     }
 
-    public int[] getNumeros() {
-        return numeros;
-    }
+    public int metodoSoma(){
+        int resultado = 0;
 
-    public void setNumeros(int[] numeros) {
-        this.numeros = numeros;
-    }
+        for (int i=0; i<numeros.length; i++){
+            resultado = resultado + numeros[i];
+        }
 
+        return resultado;
+    }
     
 }
